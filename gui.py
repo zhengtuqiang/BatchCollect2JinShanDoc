@@ -2,6 +2,7 @@
 import tkinter as tk
 import time,pyautogui,webbrowser,sys
 root = tk.Tk()
+root.title("金山文档批量收藏工具")
 def saveInternal(links):  
     interval=3   
     waitInterval = 5
